@@ -8,13 +8,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
+    <TextView
+        android:layout_width= "match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setting"
+        android:gravity="center"
+        android:textSize="40dp">
+    </TextView>
+
+    <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="setting"
-        android:textSize="40dp"
-        android:id="@+id/btnSetting">
+        android:id="@+id/spinner">
 
-    </Button>
+    </Spinner>
 
 </LinearLayout>
